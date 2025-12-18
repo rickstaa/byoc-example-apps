@@ -1,26 +1,97 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --background: 0 0% 100%;
+  --foreground: 224 10% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 10% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 224 10% 10%;
+  --primary: 151 100% 46%;
+  --primary-foreground: 220 22% 10%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222 47% 11%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47% 11%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 151 100% 46%;
+  --chart-1: 151 100% 46%;
+  --chart-2: 175 70% 50%;
+  --chart-3: 200 80% 55%;
+  --chart-4: 260 75% 65%;
+  --chart-5: 320 70% 60%;
+  --radius: 1.2rem;
+  --ink: 224 10% 10%;
+  --surface: 210 40% 96%;
+  --surface-2: 0 0% 100%;
+  --accent-2: 151 30% 15%;
+  --font-heading: 'Space Grotesk';
+  --font-body: 'IBM Plex Sans';
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark {
+  color-scheme: dark;
+  --background: 155 7% 8.4%;
+  --foreground: 210 20% 96%;
+  --card: 220 16% 11%;
+  --card-foreground: 210 20% 96%;
+  --popover: 220 16% 11%;
+  --popover-foreground: 210 20% 96%;
+  --primary: 151 100% 46%;
+  --primary-foreground: 220 22% 10%;
+  --secondary: 220 14% 18%;
+  --secondary-foreground: 210 20% 96%;
+  --muted: 220 14% 18%;
+  --muted-foreground: 215 12% 60%;
+  --accent: 220 14% 18%;
+  --accent-foreground: 210 20% 96%;
+  --destructive: 0 72% 50%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 220 14% 22%;
+  --input: 220 14% 22%;
+  --ring: 151 100% 46%;
+  --chart-1: 151 100% 46%;
+  --chart-2: 175 70% 50%;
+  --chart-3: 200 80% 55%;
+  --chart-4: 260 75% 65%;
+  --chart-5: 320 70% 60%;
+  --ink: 210 20% 96%;
+  --surface: 220 16% 11%;
+  --surface-2: 220 14% 16%;
+  --accent-2: 151 30% 20%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  @apply border-border;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background text-foreground antialiased;
+  font-family: var(--font-body), system-ui, sans-serif;
+  background-image: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(0, 235, 136, 0.3);
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-border/70 bg-card/80 shadow-card backdrop-blur;
+  }
 }

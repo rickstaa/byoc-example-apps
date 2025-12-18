@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Flowforge",
+    "tagline": "Build and orchestrate compute workflows with declarative pipelines.",
+    "creator": "Livepeer Labs",
+    "repo": "https://github.com/livepeer/flowforge",
+    "website": "https://flowforge.livepeer.example",
+    "tags": ["Workflow", "Automation", "Developer"],
+    "logo": "/logos/flowforge.svg"
+  },
+  {
+    "name": "Streamline",
+    "tagline": "Realtime media transforms powered by decentralized compute.",
+    "creator": "Muxxion Labs",
+    "repo": "https://github.com/community/streamline",
+    "website": "https://streamline.community.example",
+    "tags": ["Streaming", "Media", "AI"],
+    "logo": "/logos/streamline.svg"
+  },
+  {
+    "name": "Vector Relay",
+    "tagline": "Ship embeddings workflows from ingest to retrieval.",
+    "creator": "Muxxion Labs",
+    "repo": "https://github.com/community/vector-relay",
+    "website": "https://vector-relay.community.example",
+    "tags": ["AI", "Search", "Infra"],
+    "logo": "/logos/vector-relay.svg"
+  },
+  {
+    "name": "Pulseboard",
+    "tagline": "Operational dashboards for distributed task orchestration.",
+    "creator": "Livepeer Labs",
+    "repo": "https://github.com/livepeer/pulseboard",
+    "website": "https://pulseboard.livepeer.example",
+    "tags": ["Observability", "Ops", "Workflow"],
+    "logo": "/logos/pulseboard.svg"
+  },
+  {
+    "name": "Cache Mesh",
+    "tagline": "Edge caching layer for compute-heavy workloads.",
+    "creator": "Community",
+    "repo": "https://github.com/community/cache-mesh",
+    "website": "https://cachemesh.community.example",
+    "tags": ["Infra", "Edge", "Performance"],
+    "logo": "/logos/cache-mesh.svg"
+  },
+  {
+    "name": "Agent Lane",
+    "tagline": "Coordinate agent swarms with policy-based routing.",
+    "creator": "Community",
+    "repo": "https://github.com/community/agent-lane",
+    "website": "https://agent-lane.community.example",
+    "tags": ["AI", "Agents", "Automation"],
+    "logo": "/logos/agent-lane.svg"
+  },
+  {
+    "name": "Stream Pilot",
+    "tagline": "Adaptive routing for live video pipelines on BYOC.",
+    "creator": "Livepeer Labs",
+    "repo": "https://github.com/livepeer/stream-pilot",
+    "website": "https://stream-pilot.livepeer.example",
+    "tags": ["Streaming", "Infra", "Performance"],
+    "logo": "/logos/streamline.svg"
+  },
+  {
+    "name": "Edgeboard",
+    "tagline": "Fleet telemetry for distributed edge workers.",
+    "creator": "Muxxion Labs",
+    "repo": "https://github.com/muxxion/edgeboard",
+    "website": "https://edgeboard.muxxion.example",
+    "tags": ["Observability", "Edge", "Ops"],
+    "logo": "/logos/pulseboard.svg"
+  },
+  {
+    "name": "Ingest Kit",
+    "tagline": "Starter kit for resilient ingest with autoscaling workers.",
+    "creator": "Community",
+    "repo": "https://github.com/community/ingest-kit",
+    "website": "https://ingest-kit.community.example",
+    "tags": ["Infra", "Automation", "Workflow"],
+    "logo": "/logos/vector-relay.svg"
+  },
+  {
+    "name": "Agent Studio",
+    "tagline": "Visual orchestrator for multi-agent media workflows.",
+    "creator": "Livepeer Labs",
+    "repo": "https://github.com/livepeer/agent-studio",
+    "website": "https://agent-studio.livepeer.example",
+    "tags": ["AI", "Workflow", "Automation"],
+    "logo": "/logos/agent-lane.svg"
+  }
+]
